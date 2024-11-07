@@ -1,0 +1,4 @@
+weaviate-client
+langchain-text-splitters
+requests
+python-dotenv

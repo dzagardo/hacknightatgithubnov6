@@ -1,0 +1,68 @@
+/* src/styles.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #36393f; /* Discord-like dark theme */
+  color: #dcddde;
+}
+
+.app {
+  text-align: center;
+  padding: 20px;
+}
+
+.search-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+input[type='text'] {
+  width: 60%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #7289da; /* Discord blue */
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #5b6eae;
+}
+
+.results {
+  margin-top: 20px;
+}
+
+.result-item {
+  background-color: #2f3136;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.result-item h3 {
+  margin-top: 0;
+}
+
+.error {
+  color: #ff5555;
+}
